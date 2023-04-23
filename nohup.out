@@ -1,0 +1,3 @@
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+[ERROR viaduct::backend::ffi] Missing HTTP status
+[ERROR viaduct::backend::ffi] Missing HTTP status

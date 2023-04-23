@@ -1,0 +1,39 @@
+* {
+    border-width: 2px;
+    border-color: black;
+}
+
+button {
+    font-size: 16px;
+    background-color: rgb(190, 151, 58);
+}
+
+body {
+    font-family: 'VT323', monospace;
+    background-color: rgb(194, 9, 6);
+}
+.header {
+    text-align: center;
+    font-size: 54px;
+    color: rgb(190, 151, 58);
+}
+
+.colors, .utilities {
+    display: flex;
+    justify-content: center
+}
+
+.sketch {
+    background-color: rgb(131, 131, 131);
+    width:  580px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}

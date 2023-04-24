@@ -5,24 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= 'stylesheet' href="styles.css">
-    <script src="scripts.js"></script>
+    <script src="scripts.js" defer></script>
     <title>Etch-A-Sketch</title>
 </head>
 <body>
     <h1 class="header">Etch-A-Sketch</h1>
-    <ul class="colors">
-        <button>B&W</button>
-        <button>RGB</button>
-    </ul>
-
-    <div class="sketch">
-
+    
+    <div class="whereMagicHappens">
+        <ul class="colors">
+            <button id="bwButton">B&W</button>
+            <button id="rgbButton">RGB</button>
+        </ul>
+        <div class="sketch">
+            
+        </div>
+        <ul class="utilities">
+            <button id="sizeButton">Size</button>
+            <button id="resetButton">Reset</button>
+        </ul>
     </div>
-
-    <ul class="utilities">
-        <button>Size</button>
-        <button>Reset</button>
-    </ul>
     
     <footer>Project by Jebder. https://github.com/Jebder </footer>
 </body>

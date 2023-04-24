@@ -11,29 +11,54 @@ button {
 body {
     font-family: 'VT323', monospace;
     background-color: rgb(194, 9, 6);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    min-height: 100vh;
 }
 .header {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 54px;
     color: rgb(190, 151, 58);
 }
 
 .colors, .utilities {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    align-content: center;
+    padding-left: 0px;
+    gap: 20px;
+
+}
+
+.whereMagicHappens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, .30);
+    border-radius: 10px;
+    width: 65%;
+    margin: 0 auto;
 }
 
 .sketch {
     background-color: rgb(131, 131, 131);
-    width:  580px;
-    height: 580px;
+    max-width: 450px;
+    max-height: 450px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
     margin: 0 auto;
+    border: solid black 2px;
 }
 
 footer {
-    margin-top: auto;
-    text-align: center;
+margin-top: auto;
+text-align: center;
 }
+

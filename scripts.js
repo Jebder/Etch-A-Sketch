@@ -57,6 +57,7 @@ function updateGridSize() {
     }
   }
 
+
 // assign variables
 let gridSize = 16; // 16 pixels by default
 let sketch = document.querySelector('.sketch');
@@ -64,8 +65,6 @@ var [width, height] = getPixelSize(gridSize);
 
 // construct grid with default size
 makeGrid();
-
-// add listeners for buttons
 
 // size button
 let sizeButton = document.querySelector('#sizeButton');
